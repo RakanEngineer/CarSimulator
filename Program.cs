@@ -38,9 +38,18 @@ namespace CarSimulator
                             // nu har vi en class som reperestera TeslaModel3, Volvo240
                             // så ända behöver vi registration number.
 
+                            //Write("Brand: ");
+                            //string brand = ReadLine();
+
+                            //Write("Model: ");
+                            //string model = ReadLine();
+
                             Write("Registration number: ");
 
                             string registrationNumber = ReadLine();
+
+                            //Car newCar = new Car(brand, model, registrationNumber);
+                            //carList[carListCurrentIndexPosition++] = newCar;
 
                             WriteLine("Choose Car: ");
 
